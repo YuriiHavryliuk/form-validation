@@ -1,0 +1,37 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "form-validation",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-filter": "~4.0.0",
+    "gulp-iconfont": "^9.1.0",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "~2.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "~4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriiHavryliuk/form-validation.git"
+  },
+  "author": "Havriliuk Yurii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriiHavryliuk/form-validation/issues"
+  },
+  "homepage": "https://github.com/YuriiHavryliuk/form-validation#readme"
+}
