@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Form validation</title>
+</head>
+<body>
+	<div class="container">
+		<form action="" class="form">
+			<div class="form__row">
+				<div class="form__control">
+					<label class="form__label">First name:<b class="required">*</b></label>
+					<input class="form__input first-name required-field validate-text" type="text">
+				</div>
+				<div class="form__control">
+					<label class="form__label">Last name:<b class="required">*</b></label>
+					<input class="form__input last-name required-field validate-text" type="text">
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<label class="form__label">Birthday:<b class="required">*</b></label>
+					<input class="form__input date required-field" type="date">
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<div class="form__radio-block">
+						<input class="form__input form__input--radio" checked="" value="male" type="radio" name="sex">
+						<div class="form__radio-view">
+							<span>Male</span>
+						</div>
+					</div>
+				</div>
+				<div class="form__control">
+					<div class="form__radio-block">
+						<input class="form__input form__input--radio" value="female" type="radio" name="sex">
+						<div class="form__radio-view">
+							<span>Female</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<label class="form__label">Country:<b class="required">*</b></label>
+					<select class="form__input country required-field">
+						<option selected disabled></option>
+						<option value="1">Ukraine</option>
+						<option value="2">Russia</option>
+					</select>
+				</div>
+				<div class="form__control">
+					<label class="form__label">Adress:<b class="required">*</b></label>
+					<input class="form__input adress required-field validate-text" type="text">
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<label class="form__label">Email:<b class="required">*</b></label>
+					<input class="form__input email" type="text">
+				</div>
+				<div class="form__control">
+					<label class="form__label">Password:<b class="required">*</b></label>
+					<input class="form__input password required-field" type="password">
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<label class="form__label">Notes:</label>
+					<textarea class="form__input form__textarea validate-text"></textarea>
+				</div>
+			</div>
+			<div class="form__row">
+				<div class="form__control">
+					<button class="form__btn btn--submit">Submit</button>
+				</div>
+			</div>
+		</form>
+</div>
+<div class="overlay"></div>
+<div class="modal" id="modal">
+    <div class="modal__window">
+      <h2>Validation passed</h2>
+   </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="script/app.js"></script>
+</body>
+</html>
