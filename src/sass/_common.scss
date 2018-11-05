@@ -4,12 +4,13 @@ body{
 
 .form {
 	margin: 0 auto;
-    padding: 20px 15px;
-    background-color: #ddd0c8;
-	width: 400px;
+  padding: 20px 15px;
+  background-color: #ddd0c8;
+	width: 420px;
 	margin-top: 50px;
-	
+
 	&__control {
+    position: relative;
 		width: 100%;
 		margin: 0 3px;
 	}
@@ -60,13 +61,23 @@ body{
 		padding: 0 35px;
 		display: flex;
 	}
-	
+
 	&__label {
 		display: block;
 		margin-bottom: 5px;
 		font-size: 12px;
 		color: #626469;
 	}
+
+  &__error {
+    transition: 0.3s;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: red;
+    font-size: 9px;
+    margin-top: 1px;
+  }
 
 	.required {
 		color: #fd1d1d;
@@ -99,6 +110,10 @@ body{
 		height: 100%;
 		box-sizing: border-box;
 	}
+}
+
+.invalid-input {
+  border: 1px solid red;
 }
 
 select {

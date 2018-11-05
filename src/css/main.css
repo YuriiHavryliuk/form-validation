@@ -419,11 +419,12 @@ body {
   margin: 0 auto;
   padding: 20px 15px;
   background-color: #ddd0c8;
-  width: 400px;
+  width: 420px;
   margin-top: 50px;
 }
 
 .form__control {
+  position: relative;
   width: 100%;
   margin: 0 3px;
 }
@@ -485,6 +486,17 @@ body {
   color: #626469;
 }
 
+.form__error {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: red;
+  font-size: 9px;
+  margin-top: 1px;
+}
+
 .form .required {
   color: #fd1d1d;
   margin-left: 5px;
@@ -523,6 +535,10 @@ body {
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.invalid-input {
+  border: 1px solid red;
 }
 
 select {
