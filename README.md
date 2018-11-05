@@ -32,7 +32,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 <li>Password* (password)</li>
 <li>Address* (text)</li>
 <li>Notes (textarea)</li></ul>
-  <b>Req. 1</b>
+  <b>Req. 1</b><br>
 * indicates a required field.<br>
 
 <b>Req. 2</b><br>
@@ -58,6 +58,3 @@ You can use jQuery UI to implement the task. Do not use plugins to validate the 
 
 <b>Req. 9</b><br>
 Show a modal window that validation passed, when entered data is valid. Use third-party plugins for modal window.<br>
-
-<b>Req. 10</b><br>
-Save your project on Github with README file<br>
