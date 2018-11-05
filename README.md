@@ -34,7 +34,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 <li>Notes (textarea)</li></ul>
   <b>Req. 1</b><br>
 * indicates a required field.<br>
-
+<br>
 <b>Req. 2</b><br>
 Text fields allow entering all symbols except double and single quotes (‘ and “).<br>
 
